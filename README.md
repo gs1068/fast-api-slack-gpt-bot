@@ -75,6 +75,7 @@
 SLACK_BOT_TOKEN="xoxb-xxxx-xxxx-xxxx-xxxx"
 OPENAI_API_KEY="sk-xxxx-xxxx-xxxx-xxxx"
 SPREADSHEET_ID="xxxx-xxxx-xxxx-xxxx-xxxx"
+GOOGLE_CREDENTIALS_PATH="./credential.json"
 ```
 
 GCP から取得した `credentials.json` ファイルを `./` ディレクトリに配置してください。
