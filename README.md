@@ -57,9 +57,27 @@
   - Docker
   - ECR
   - AWS App Runner
+ 
 
+## Slack APP
+OAuth & Permissions
+- app_mentions:read
+- channels:history
+- channels:read
+- chat:write
+- groups:history
+- groups:read
+- im:history
+- im:read
+- im:write
+
+Event Subscription
+- app_mention
+- message.im
 
 ## スプレッドシート
+GCPでこのプロジェクトを作成し、credential.jsonを取得
+プレッドシートの作成とActivityタブを作る
 
 最終利用日時が変わると「一日のトークン使用量」がリセットされる。
 
