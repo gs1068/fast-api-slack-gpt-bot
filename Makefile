@@ -1,5 +1,5 @@
-IMAGE_NAME=juiz-slack-bot-with-env
-AWS_ACCOUNT_ID=248189937351
+IMAGE_NAME=slack-gpt-bot
+AWS_ACCOUNT_ID=XXXXXXXXX
 AWS_REGION=ap-northeast-1
 REPO_NAME=juiz
 
