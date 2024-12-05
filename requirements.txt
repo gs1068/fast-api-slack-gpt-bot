@@ -1,0 +1,11 @@
+fastapi
+pydantic
+uvicorn
+python-dotenv
+openai
+slack-sdk
+slackeventsapi
+aiohttp
+google-auth
+google-api-python-client
+python-dateutil
