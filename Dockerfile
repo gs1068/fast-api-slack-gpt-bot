@@ -1,4 +1,4 @@
-FROM python:3.13 as builder
+FROM python:3.14 as builder
 
 WORKDIR /app
 
@@ -6,7 +6,7 @@ COPY ./requirements.txt /app/requirements.txt
 
 RUN pip install --user --no-cache-dir --upgrade -r /app/requirements.txt
 
-FROM python:3.13-slim as runtime
+FROM python:3.14-slim as runtime
 
 WORKDIR /app
 
